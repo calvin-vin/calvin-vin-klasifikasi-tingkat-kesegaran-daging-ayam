@@ -17,7 +17,6 @@
 
 - [Node.js](https://nodejs.org/) (untuk React Native)
 - [Python](https://www.python.org/) (untuk FastAPI dan PyTorch)
-- [Pip](https://pip.pypa.io/en/stable/) (untuk menginstal paket Python)
 
 ### Instalasi Backend
    ```bash
