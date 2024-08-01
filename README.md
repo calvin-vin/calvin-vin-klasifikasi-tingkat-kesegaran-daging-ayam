@@ -7,8 +7,8 @@
 - **FastAPI**
 
 ## Struktur Proyek
-- **`frontend/`**: Kode sumber untuk aplikasi mobile yang dibangun dengan React Native.
-- **`backend/`**: Kode sumber untuk API yang dibangun dengan FastAPI.
+- **`fe/`**: Kode sumber untuk aplikasi mobile yang dibangun dengan React Native.
+- **`be/`**: Kode sumber untuk API yang dibangun dengan FastAPI.
 - **`cnn/`**: Model-model deep learning yang dibangun dengan PyTorch.
 
 ## Instalasi
