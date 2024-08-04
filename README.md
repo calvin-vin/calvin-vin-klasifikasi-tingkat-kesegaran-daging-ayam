@@ -1,4 +1,6 @@
-# Klasifikasi Citra Tingkat Kesegaran Daging Ayam
+# Klasifikasi Citra Tingkat Kesegaran Daging Ayam menggunakan MobileNetV3
+
+# Classification of Chicken Meat Freshnes using MobileNetV3
 
 ## Tech Stack
 
@@ -34,7 +36,7 @@
 - [Node.js](https://nodejs.org/) - Running React Native.
 - [Python](https://www.python.org/) - Running FastAPI and PyTorch.
 
-### Backend Instalation
+### Backend Installation
 
 ```bash
 cd be
@@ -44,7 +46,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-### Frontend Instalation
+### Frontend Installation
 
 ```bash
 cd fe
