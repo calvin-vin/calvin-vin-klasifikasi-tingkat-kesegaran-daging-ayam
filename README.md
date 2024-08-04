@@ -1,37 +1,58 @@
-# Klasifikasi Citra Tingkat Kesegaran Daging Aya,
+# Klasifikasi Citra Tingkat Kesegaran Daging Ayam
 
 ## Tech Stack
 
-- **PyTorch**
-- **React Native**
-- **FastAPI**
+- **Frontend (`fe/`): **React Native\*\*
+- **Backend (`be/`): **FastAPI\*\*
+- **CNN (`cnn/`): **PyTorch\*\*
 
-## Struktur Proyek
-- **`fe/`**: Kode sumber untuk aplikasi mobile yang dibangun dengan React Native.
-- **`be/`**: Kode sumber untuk API yang dibangun dengan FastAPI.
-- **`cnn/`**: Model-model deep learning yang dibangun dengan PyTorch.
+## CNN Model
+
+### Classes/Labels
+
+- **Sangat Segar (ss)**
+- **Segar-Normal (sn)**
+- **Normal-Busuk (nb)**
+- **Busuk (b)**
+
+#### Dataset Sample
+
+<img src="assets/sample.jpg" alt="Sampel Dataset" width="400"/>
+
+#### Training
+
+<img src="assets/training.png" alt="Training" width="500"/>
+
+#### Confusion Matrix Validation
+
+<img src="assets/cm.png" alt="Confusion Matrix" width="400"/>
 
 ## Instalasi
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (untuk React Native)
-- [Python](https://www.python.org/) (untuk FastAPI dan PyTorch)
+- [Node.js](https://nodejs.org/) - Running React Native.
+- [Python](https://www.python.org/) - Running FastAPI and PyTorch.
 
-### Instalasi Backend
-   ```bash
-   cd be
-   python -m venv venv
-   .\myenv\Scripts\activate
-   pip install -r requirements.txt
-   uvicorn main:app --reload
-  ```
+### Backend Instalation
 
+```bash
+cd be
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
 
-### Instalasi Frontend
-   ```bash
-   cd fe
-   npm install
-   npm start
-   npm run android
-   ```
+### Frontend Instalation
+
+```bash
+cd fe
+npm install
+npm start
+npm run android
+```
+
+#### Layout
+
+<img src="assets/layout_app.png" alt="Layout App" width="300"/>
