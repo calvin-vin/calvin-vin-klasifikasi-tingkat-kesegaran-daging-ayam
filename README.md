@@ -31,8 +31,8 @@
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) - Running React Native.
-- [Python](https://www.python.org/) - Running FastAPI and PyTorch.
+- [Node.js v21.6.2](https://nodejs.org/) - Running React Native.
+- [Python v3.9.10](https://www.python.org/) - Running FastAPI and PyTorch.
 
 ### Backend Instalation
 
